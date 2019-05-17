@@ -1,0 +1,21 @@
+{
+  "Ki": "0.135", 
+  "Kp": "0.45", 
+  "battChargeMax": "70", 
+  "battChargeMin": "60", 
+  "battPercOff": "25", 
+  "brakeStoppingTarget": "0.25", 
+  "cameraOffset": "0.06", 
+  "carVoltageMinEonShutdown": "11800", 
+  "dampMPC": "0.15", 
+  "dampSteer": "0.01", 
+  "grafanaUser": "982992", 
+  "lastTrMode": "1", 
+  "leadDistance": "5.0", 
+  "liveParams": "1", 
+  "rateFF": "0.01", 
+  "reactMPC": "0.025", 
+  "reactSteer": "0.001", 
+  "tuneGernby": "1", 
+  "wheelTouchSeconds": "180"
+}
