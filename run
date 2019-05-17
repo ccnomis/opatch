@@ -11,6 +11,10 @@ git apply -v $CWD/vertical_aligned_phone_camera_mod.diff
 git apply -v $CWD/auto_shutdown/shut_down_eon_after_30_mins_if_usb_disconnected.diff
 git apply -v $CWD/honda/for_stock_acc_only_does_not_disable_op_on_gas_or_brake.diff
 
+cd /data
+git apply -v $CWD/kegman_json.diff
+cd /data/openpilot
+
 python -m compileall . && make
 make
 #reboot
