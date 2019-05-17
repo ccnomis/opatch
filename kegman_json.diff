@@ -1,0 +1,13 @@
+diff --git a/kegman.json b/kegman.json
+index ae2ad93..fda854a 100644
+--- a/kegman.json
++++ b/kegman.json
+@@ -5,7 +5,7 @@
+   "battChargeMin": "60", 
+   "battPercOff": "25", 
+   "brakeStoppingTarget": "0.25", 
+-  "cameraOffset": "0.06", 
++  "cameraOffset": "0.072", 
+   "carVoltageMinEonShutdown": "11800", 
+   "dampMPC": "0.15", 
+   "dampSteer": "0.01", 
