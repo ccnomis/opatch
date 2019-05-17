@@ -1,23 +1,15 @@
-
 CWD=$(pwd)
-
+touch /data/no_ota_updates
 cd /data/openpilot
-
 git apply -v $CWD/disable_driver_monitor.diff
 git apply -v $CWD/disable_logger.diff
 git apply -v $CWD/disable_mapd.diff
-git apply -v $CWD/do_not_auto_update_op.diff
-git apply -v $CWD/vertical_aligned_phone_camera_mod.diff
-git apply -v $CWD/auto_shutdown/shut_down_eon_after_30_mins_if_usb_disconnected.diff
+git apply -v $CWD/auto_shutdown/shut_down_eon_after_1_mins_if_usb_disconnected.diff
 git apply -v $CWD/honda/for_stock_acc_only_does_not_disable_op_on_gas_or_brake.diff
-
 cd /data
 git apply -v $CWD/kegman_json.diff
 cd /data/openpilot
-
+cp $CWD/wait.wav /data/openpilot/selfdrive/assets/sounds/engaged.wav 
 python -m compileall . && make
 make
 #reboot
-
-
-
