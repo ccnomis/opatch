@@ -2,9 +2,9 @@ CWD=$(pwd)
 touch /data/no_ota_updates
 cd /data/openpilot
 git apply -v $CWD/disable_driver_monitor.diff
-git apply -v $CWD/disable_logger.diff
+#git apply -v $CWD/disable_logger.diff
 git apply -v $CWD/disable_mapd.diff
-git apply -v $CWD/auto_shutdown/shut_down_eon_after_1_mins_if_usb_disconnected.diff
+git apply -v $CWD/auto_shutdown/shut_down_eon_after_5_mins_if_usb_disconnected.diff
 git apply -v $CWD/honda/for_stock_acc_only_does_not_disable_op_on_gas_or_brake.diff
 cd /data
 git apply -v $CWD/kegman_json.diff
