@@ -5,7 +5,7 @@
   "battChargeMin": "60", 
   "battPercOff": "25", 
   "brakeStoppingTarget": "0.25", 
-  "cameraOffset": "0.072", 
+  "cameraOffset": "0.06", 
   "carVoltageMinEonShutdown": "11800", 
   "dampMPC": "0.15", 
   "dampSteer": "0.01", 
